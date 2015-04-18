@@ -1,0 +1,12 @@
+extends layout_error
+
+block content  
+  section.content.error
+    .header
+      h1        
+        span.status= error.status + " "     
+        span.title= message
+    p= desciption
+    .stack
+      pre #{error.stack}
+    a(href="http://apiforgamification.com", target="_blank") Api for gamification

@@ -1,0 +1,6 @@
+{
+	"secretword": "AAA",
+	"mongodb": {
+		"url": "mongodb://fernando:capde13@ds061631.mongolab.com:61631/aceroladb"
+	}
+}

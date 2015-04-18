@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  section.content
+    .header
+      h1 Response    
+    div.json
+    br
+    a(href="http://apiforgamification.com", target="_blank") Api for gamification
+
+block plugins   
+  script
+    $(".json").JSONView(!{JSON.stringify(response[0])});

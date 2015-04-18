@@ -1,0 +1,20 @@
+.radius(@radius) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    border-radius: @radius;
+}
+body {
+    padding: 50px;
+    font: 14px"Roboto", Helvetica, Arial, sans-serif;
+    background-color: @background-primary;
+}
+a {
+    color: @link-color;
+    text-decoration: none;
+}
+section.content {
+    .radius(4px);
+    padding: 30px;
+    color: @color-primary;
+    background-color: @background-secondary;
+}

@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/animate.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/javascripts/plugins/jsonview/jsonview.css')    	
+  body.animated.bounceInUp
+    block content
+    script(src='/javascripts/jquery.min.js')    
+    script(src='/javascripts/plugins/jsonview/jsonview.js')
+    block plugins
