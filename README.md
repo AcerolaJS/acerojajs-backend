@@ -5,7 +5,7 @@ Propuesta de proyecto colaborativo para la comunidad de AngulaJS&Beers
 Backend to provide specific API to the acerolajs-frontend app and a public API.
 
 ##Primera aproximación
-La idea de este proyecto seria que poniendo que tenemos una Startup de ejemplo que llamaremos "A -> Alakazam"  que quiere incluir gamificación en su modelo de negocio y en Alaka tenemos a un Desarollador "J -> Jonh" y a un responsable de Marketing "K -> Kyle".
+La idea de este proyecto seria que poniendo que tenemos una Startup de ejemplo que llamaremos "A -> Alakazam"  que quiere incluir gamificación en su modelo de negocio y en Alakazam tenemos a un Desarollador "J -> Jonh" y a un responsable de Marketing "K -> Kyle".
 
 Con este proyecto tendriamos:
 
